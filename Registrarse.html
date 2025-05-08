@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+</head>
+<body>
+    <div class="formulario">
+        <h1 id="RI">Crear cuenta</h1>
+        <form id="formRI" action="">
+            <fieldset id="MyPri"> 
+                <label for="mail"> Gmail <input id="mail" name="mail" type="email" placeholder="mail@gmail.com" required></label>
+                <label for="password" > Password <input id="password" name="password" type="password" placeholder="usar [a-z0-5]{8,}" pattern="[a-z0-5]{8,}" required></label>
+            </fieldset>
+            <fieldset id="NyA">
+                <label for="nombre"> Nombre <input type="text"></label>
+                <label for="apellido"> Apellido <input type="text"></label>
+            </fieldset>
+            <fieldset id="S">
+                <label for="sexo">
+                    <select name="sexo" id="sexo">
+                        <option value="">Sexo</option>
+                        <option value="">Masculino</option>
+                        <option value="">Femenino</option>
+                        <option value="">Indefinido</option>
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset id="D">
+                <label for="date"> Fecha de nacimiento <input id="date" type="date"></label>
+            </fieldset>
+            <button id="botonRI" type="submit">Registrarse</button>
+        </form>
+    </div>
+</body>
+</html>
