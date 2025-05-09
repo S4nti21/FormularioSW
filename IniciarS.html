@@ -1,18 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <link rel="stylesheet" href="style.css">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo3.png">
     <title>Iniciar sesion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Oswald:wght@200..700&display=swap" rel="stylesheet">   
 </head>
 <body>
+    <div id="img">
+        <img src="img/logo3.png" alt="">
+    </div>
     <div class="formulario">
         <h1 id="IS">Iniciar sesion</h1>
         <form id="formIS" action="">
             <fieldset id="MyP"> 
-                <label for="mail"><input id="mail" name="mail" type="email" placeholder="Gmail" required></label>
-                <label for="password" ><input id="password" name="password" type="password" placeholder="Password" pattern="[a-z0-5]{8,}" required></label>
+                <label for="mail"><input id="mail" name="mail" type="email" placeholder="Correo Electronico" required></label>
+                <label for="password" ><input id="password" name="password" type="password" placeholder="Contraseña" pattern="[a-z0-5]{8,}" required></label>
             </fieldset>
             <button id="botonIS" type="submit">Iniciar</button>
         </form>

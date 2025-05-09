@@ -1,8 +1,22 @@
 body{
     margin: 0;
     padding: 0;
-    background:linear-gradient(rgb(121, 204, 252), rgb(224, 247, 255));
+    background:linear-gradient(rgb(0, 5, 7), rgb(71, 71, 71));
     height: 100vh;
+}
+#img img{
+    width: 110px;
+    position: absolute;
+    top: 19%;
+    left: 49.5%;
+    transform: translate(-50%, -50%);
+}
+#img2 img{
+    width: 110px;
+    position: absolute;
+    top: 12%;
+    left: 49.5%;
+    transform: translate(-50%, -50%);
 }
 .formulario{
     position: absolute;
@@ -13,14 +27,24 @@ body{
     background: white;
     border-radius: 10px;
 }
+.formulario2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 370px;
+    background: white;
+    border-radius: 10px;
+}
 form{
     padding: 0 40px;
     box-sizing: border-box;
 }
 h1{
-    color: rgb(107, 193, 255);
+    color: rgb(0, 0, 0);
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Cal Sans", sans-serif;
     border-bottom: 1px solid silver;
     padding: 0 0 20px 0;
 }
@@ -29,14 +53,15 @@ h1{
     border-bottom: 2px solid silver;
     position: relative;
     text-align: center;
-    margin: 30px 0;
-    font-size: 18px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+    margin: 30px;
+    font-size: 18px;}
 #mail{
     border-radius: 7px;
     border-color:rgba(0, 0, 0, 0.171);
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    margin: 4%;
+
 }
 #mail:hover{
     width: 165px;
@@ -45,12 +70,14 @@ h1{
     border-radius: 7px;
     border-color:rgba(0, 0, 0, 0.171);
     text-align: center;
+    font-family:Arial, Helvetica, sans-serif
+
 }
 #password:hover{
     width: 165px;
 }
 #botonIS{
-    background-color: rgb(107, 193, 255);
+    background-color: rgb(0, 0, 0);
     border-color: rgba(240, 248, 255, 0);
     display: flex;
     justify-content: center;
@@ -58,6 +85,7 @@ h1{
     margin: 0 auto;
     border-radius: 10px;
     width: 150px;
+    color: rgb(255, 255, 255);
 }
 #botonIS:hover{
     width: 155px;
@@ -72,34 +100,78 @@ p{
 #MyPri{
     border: 3px solid rgba(138, 212, 255, 0);
     text-align: center;
-    margin: auto;
     font-size: 18px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#nombre{
+    border-radius: 7px;
+    border-color:rgba(0, 0, 0, 0.171);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 4%;
+}
+#nombre:hover{
+    width: 165px;
+}
+#apellido{
+    border-radius: 7px;
+    border-color:rgba(0, 0, 0, 0.171);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#apellido:hover{
+    width: 165px;
 }
 #NyA{
     border: 3px solid rgba(138, 212, 255, 0);
     text-align: center;
-    margin: auto;
     font-size: 18px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-#S{
-    border: 3px solid rgba(138, 212, 255, 0);
+#SyD{
     text-align: center;
-    margin: auto;
-    font-size: 18px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid silver;
+    margin: 4%;
+    gap:15px;
+    margin-left: 25px;
 }
-#D{
-    border: 3px solid rgba(138, 212, 255, 0);
+#sexo{
+ border-color:rgba(0, 0, 0, 0.29);
+ border-radius: 6px;
+ width: 90px;
+ text-align: center;
+ margin: 9%;
+ font-family: Arial, Helvetica, sans-serif;
+}
+#sexo:hover{
+    cursor: pointer;
+    width: 92px;
+}
+#date{
+    border-color:rgba(0, 0, 0, 0.162);
+    border-radius: 6px;
+    width: 150px;
     text-align: center;
-    margin: auto;
-    font-size: 18px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 9%;
+}
+#date:hover{
+    cursor: pointer;
+    width: 152px;
 }
 #botonRI{
+    background-color: rgb(0, 0, 0);
+    border-color: rgba(240, 248, 255, 0);
     display: flex;
     justify-content: center;
     text-align: center;
     margin: 0 auto;
+    border-radius: 10px;
+    width: 150px;
+    color: rgb(255, 255, 255);
+}
+#botonRI:hover{
+    cursor: pointer;
+    width: 155px;
 }
